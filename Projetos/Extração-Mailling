@@ -1,0 +1,697 @@
+import pyautogui
+import time
+import datetime
+
+
+while True:
+    now = datetime.datetime.now()
+    if now.weekday() >= 0 and now.weekday() <= 5:
+        if now.hour >= 19 and now.hour < 20:
+
+# CLARO MÓVEL 361 A 2520 CONFIRMADOS
+
+            time.sleep(300)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press('down') # descer até claro Móvel
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('361')
+            pyautogui.press('tab')
+            pyautogui.write('2520')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('space')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+            # CLARO MÓVEL 0 A 360
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press('down') # descer até claro Móvel
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('0')
+            pyautogui.press('tab')
+            pyautogui.write('360')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down', 'down']) MARCAR APENAS CELULAR
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+
+            # CLARO Fixo 1801 A 9999 CONFIRMADOS
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press(['down', 'down']) # descer até claro Fixo
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('1801')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('space')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+
+            # CLARO FIXO 0 A 1800
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press(['down', 'down']) # descer até claro Fixo
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('0')
+            pyautogui.press('tab')
+            pyautogui.write('1800')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down', 'down']) MARCAR APENAS CELULAR
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+
+            # CLARO TV 0 A 1800
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press(['down', 'down', 'down']) # descer até claro tv
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('0')
+            pyautogui.press('tab')
+            pyautogui.write('1800')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down', 'down']) MARCAR APENAS CELULAR
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+
+            # CLARO TV 0 A 360
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press(['down', 'down', 'down']) # descer até claro tv
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('0')
+            pyautogui.press('tab')
+            pyautogui.write('360')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down', 'down']) MARCAR APENAS CELULAR
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+
+
+            # CLARO TV 361 A 1800 CONFIRMADOS
+
+            time.sleep(5)
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('winleft') # abrir barra de pesquisa
+            pyautogui.write('https://claro.mfmti.com.br/lang_portbr/') # colar o link do navegador
+            pyautogui.press('enter') # pressionar enter
+            time.sleep(10) # pausa de 10 seg para carregar a pagina
+            pyautogui.press('enter') # pressionar enter
+            pyautogui.hotkey('ctrl', '0')
+            pyautogui.click(x=42, y=276)
+            pyautogui.click(x=73, y=294)
+            pyautogui.click(x=177, y=300)
+            time.sleep(10)
+            pyautogui.PAUSE = 0.5
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=461, y=528)
+            pyautogui.click(x=461, y=542)
+            pyautogui.click(x=461, y=556)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=487)
+            pyautogui.click(x=446, y=500)
+            pyautogui.click(x=446, y=513)
+            pyautogui.click(x=446, y=526)
+            pyautogui.click(x=446, y=539)
+            pyautogui.click(x=446, y=552)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.click(x=446, y=505)
+            pyautogui.click(x=446, y=518)
+            pyautogui.click(x=446, y=531)
+            pyautogui.click(x=446, y=557)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.keyDown('ctrl')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down'])
+            pyautogui.click(x=446, y=558)
+            pyautogui.keyUp('ctrl')
+
+            pyautogui.click(x=446, y=596)
+            pyautogui.press(['down', 'down', 'down']) # descer até claro TV
+            pyautogui.press('enter')
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(-4000)
+            pyautogui.click(x=420, y=400)
+            pyautogui.write('30')
+            pyautogui.press('tab')
+            pyautogui.write('99999')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.write('361')
+            pyautogui.press('tab')
+            pyautogui.write('1800')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.scroll(4000)
+            pyautogui.click(x=840, y=500)
+            pyautogui.press('down')
+            pyautogui.press('enter')
+            pyautogui.press(['tab', 'tab', 'tab'])
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('space')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            #pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press(['down', 'down', 'down'])
+            pyautogui.press('tab')
+            pyautogui.press('down')
+            pyautogui.press(['tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab', 'tab'])
+            pyautogui.press('enter')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.click(x=185, y=571)
+            pyautogui.scroll(4000)
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('enter')
+            time.sleep(120)
+            pyautogui.hotkey('ctrl', 'w')
+            time.sleep(1200)
+        else:
+            time.sleep(3)
+    else:
+        time.sleep(3600)
