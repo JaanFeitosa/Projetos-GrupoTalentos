@@ -1,0 +1,285 @@
+import pyautogui
+import time
+import datetime
+
+pyautogui.PAUSE = 1
+pyautogui.FAILSAFE = False
+pyautogui.hotkey('winleft','m')
+pyautogui.moveTo(410,750) #GOOGLE
+pyautogui.click()
+pyautogui.hotkey('winleft','down', press = 3)
+pyautogui.hotkey('winleft','up', press = 2)
+pyautogui.moveTo(470,15) #FECHAR ABAS
+pyautogui.click()
+pyautogui.click()
+pyautogui.click()
+
+pyautogui.moveTo(460,750) #EDGE
+pyautogui.click()
+pyautogui.hotkey('winleft','down', press = 3)
+pyautogui.hotkey('winleft','up', press = 2)
+pyautogui.moveTo(510,15) #FECHAR ABAS
+pyautogui.click()
+pyautogui.click()
+pyautogui.click()
+
+pyautogui.moveTo(510,750) #MOZILLA
+pyautogui.click()
+pyautogui.hotkey('winleft','down', press = 3)
+pyautogui.hotkey('winleft','up', press = 2)
+pyautogui.moveTo(475,20) #FECHAR ABAS
+pyautogui.click()
+pyautogui.click()
+pyautogui.click()
+
+pyautogui.hotkey('winleft','m')
+
+
+
+while True: 
+    now = datetime.datetime.now()
+    if now.weekday() >= 0 and now.weekday() <=6:
+        if now.hour >= 8 and now.hour < 20:
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+
+                pyautogui.moveTo(140,690) #PLAN1
+                pyautogui.click()
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(410,750) #GOOGLE
+                pyautogui.click()
+                pyautogui.moveTo(470,15) #FECHAR ABAS
+                pyautogui.PAUSE = 1
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.click()
+
+                pyautogui.moveTo(225,100)
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.press('enter')
+                pyautogui.PAUSE = 1
+                pyautogui.moveTo(870,660) #ajuste erro
+                pyautogui.click()
+                pyautogui.moveTo(870,718) #ajuste erro 2
+
+                pyautogui.PAUSE = 0.3
+
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('right')
+                pyautogui.press('F2')
+                pyautogui.hotkey('ctrl','a')
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(410,750) #GOOGLE
+                pyautogui.click()
+                pyautogui.moveTo(530,700) #MENSAGEM
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.press('enter')
+                pyautogui.PAUSE = 1
+                pyautogui.moveTo(870,660) #ajuste erro
+                pyautogui.click()
+                pyautogui.moveTo(870,718) #ajuste erro 2
+                pyautogui.click()
+                pyautogui.moveTo(1330,100) #GOOGLE FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(1180,240) #GOOGLE FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(900,55) #URL ATUALIZAR
+                pyautogui.click()
+                pyautogui.write('https://web.whatsapp.com/') #URL ATUALIZAR
+                pyautogui.press('enter')
+
+                
+                
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('esc')
+                pyautogui.moveTo(10,240) #linha a excluir
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','-')
+                pyautogui.hotkey('ctrl','b')
+                pyautogui.moveTo(45,215) #count
+                pyautogui.PAUSE = 4
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+
+                pyautogui.moveTo(220,690) #PLAN2
+                pyautogui.click()
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(460,750) #EDGE
+                pyautogui.click()
+                pyautogui.moveTo(510,15) #FECHAR ABAS
+                pyautogui.PAUSE = 1
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.click()
+
+                pyautogui.moveTo(1100,95)
+                pyautogui.click()
+                pyautogui.moveTo(1100,95)
+                pyautogui.click()
+                pyautogui.moveTo(503,370)
+                pyautogui.click()
+                pyautogui.write("55")
+                pyautogui.moveTo(620,370)
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.moveTo(470,490)
+                pyautogui.moveTo(470,490)
+                pyautogui.click()
+                pyautogui.moveTo(765,470)
+                pyautogui.click()
+                pyautogui.PAUSE = 1
+                pyautogui.moveTo(870,660) #ajuste erro
+                pyautogui.click()
+                pyautogui.moveTo(870,718) #ajuste erro 2
+
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('right')
+                pyautogui.press('F2')
+                pyautogui.hotkey('ctrl','a')
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(460,750) #EDGE
+                pyautogui.click()
+                pyautogui.moveTo(530,700) #MENSAGEM
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.press('enter')
+                pyautogui.PAUSE = 1
+                pyautogui.moveTo(870,660) #ajuste erro
+                pyautogui.click()
+                pyautogui.moveTo(870,718) #ajuste erro 2
+                pyautogui.click()
+                pyautogui.moveTo(920,150) #EDGE FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(775,285) #EDGE FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(900,55) #URL ATUALIZAR
+                pyautogui.click()
+                pyautogui.write('https://web.whatsapp.com/') #URL ATUALIZAR
+                pyautogui.press('enter')
+                pyautogui.PAUSE = 0.3
+
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('esc')
+                pyautogui.moveTo(10,240) #linha a excluir
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','-')
+                pyautogui.hotkey('ctrl','b')
+                pyautogui.moveTo(45,215) #count
+                pyautogui.PAUSE = 4
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+
+                pyautogui.moveTo(330,690) #PLAN3
+                pyautogui.click()
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(510,750) #MOZILLA
+                pyautogui.click()
+                pyautogui.moveTo(475,20) #FECHAR ABAS
+                pyautogui.PAUSE = 1
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.click()
+                pyautogui.moveTo(1270,65)
+                pyautogui.click()
+                pyautogui.moveTo(1240,160)
+                pyautogui.click()
+                pyautogui.write("BRAZIL")
+                pyautogui.press('enter')
+                pyautogui.moveTo(1000,225)
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.moveTo(1000,280)
+                pyautogui.PAUSE = 4
+                pyautogui.click()
+                pyautogui.moveTo(670,340) #USAR WHATSWEB
+                pyautogui.click()
+                pyautogui.moveTo(670,510) #USAR WHATSWEB
+                pyautogui.click()
+                pyautogui.moveTo(670,410) #USAR WHATSWEB
+                pyautogui.PAUSE = 20
+                pyautogui.click()
+
+                pyautogui.PAUSE = 0.3
+
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('right')
+                pyautogui.press('F2')
+                pyautogui.hotkey('ctrl','a')
+                pyautogui.hotkey('ctrl','c')
+
+                pyautogui.moveTo(510,750) #MOZILLA
+                pyautogui.click()
+                pyautogui.moveTo(530,700) #MENSAGEM
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','v')
+                pyautogui.press('enter')
+                pyautogui.PAUSE = 1
+                pyautogui.moveTo(870,660) #ajuste erro
+                pyautogui.click()
+                pyautogui.moveTo(870,718) #ajuste erro 2
+                pyautogui.click()
+                pyautogui.moveTo(1330,115) #MOZILLA FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(1180,250) #MOZILLA FECHAR CONVERSA
+                pyautogui.click()
+                pyautogui.moveTo(160,20) #USAR AQUI
+                pyautogui.click()
+                pyautogui.moveTo(835,450) # USAR AQUI
+                pyautogui.click()
+                pyautogui.moveTo(1095,110) #USAR WEBWHATSAPP
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(365,750) #EXCELL
+                pyautogui.click()
+                pyautogui.press('esc')
+                pyautogui.moveTo(10,240) #linha a excluir
+                pyautogui.click()
+                pyautogui.hotkey('ctrl','-')
+                pyautogui.hotkey('ctrl','b')
+                pyautogui.moveTo(45,215) #count
+                pyautogui.PAUSE = 4
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.moveTo(35,235) #CELL A1
+                pyautogui.click()
+                pyautogui.click(550,750) #OPERA_JUPYTER 
+                time.sleep(10)
+                pyautogui.click()
+                pyautogui.PAUSE = 0.3
+                pyautogui.hotkey('winleft','m')
+        else: time.sleep(60)
+    else: time.sleep(300)
+        
+# 111seg fixos
+# 126 x 0,30seg(var)
