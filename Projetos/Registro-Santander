@@ -1,0 +1,88 @@
+import pyautogui
+import time
+import datetime
+
+while True:
+    now = datetime.datetime.now()
+    if now.weekday() >= 0 and now.weekday() <= 5:
+        if now.hour >= 9 and now.hour < 20:
+            pyautogui.FAILSAFE = False
+            pyautogui.PAUSE = 2
+            pyautogui.click(x=370, y=750) # abrir nectar services
+            pyautogui.click(x=510, y=488) # clicar em gerar arquivos
+            pyautogui.click(x=471, y=286) # selecionar empresa
+            pyautogui.click(x=460, y=380) # selecionar Unimed RJ
+            pyautogui.click(x=480, y=315) # selecionar layout
+            pyautogui.click(x=530, y=410) # selecionar CNAB SANTANDER 240 REGISTRO
+            pyautogui.click(x=460, y=400) # Selecionar ocorrência
+            pyautogui.press(['a', 'a', 'a','a']) # apertar A 4 vezes até selecionar acordo
+            pyautogui.press(['enter']) # confirmar seleção de acordo em ocorrência
+            pyautogui.click(x=950, y=430) # marcar opção todas
+            pyautogui.click(x=960, y=615) # exportar    
+            time.sleep(25) # pausa de 20 seg para terminar exportação
+            pyautogui.click(x=700, y=410) # apertar ok
+            pyautogui.click(x=1000, y=70) # fechar
+            pyautogui.click(x=173, y=751) # clicar no google
+            pyautogui.click(x=102, y=668) # clicar na pagina do monitor 1
+            pyautogui.hotkey('win', 'r') # atalho do windows
+            pyautogui.write('https://www.santander.com.br/empresas') # colar o caminho do site
+            pyautogui.press(['enter']) # abrir o caminho do site
+            time.sleep(7) # pausa de 7 seg para carregar a pagina
+            pyautogui.hotkey('ctrl', '0')
+            time.sleep(2)
+            pyautogui.click(x=1030, y=125) # clicar em Agência
+            pyautogui.write('2247')
+            pyautogui.write('130003466')
+            pyautogui.press(['enter'])
+            time.sleep(7) # pausa de 7 seg para carregar a pagina
+            pyautogui.click(x=515, y=245)
+            pyautogui.write('leandro')
+            pyautogui.press(['tab'])
+            pyautogui.write('Paz1526')
+            pyautogui.press(['enter'])
+            time.sleep(7) # pausa de 7 seg para carregar a pagina
+            pyautogui.click(x=35, y=225) # clicar em transferencia de arquivo
+            time.sleep(15) # pausa de 15 seg para carregar a pagina
+            pyautogui.click(x=400, y=445) # clicar em transmitir
+            pyautogui.hotkey('ctrl', 'l') # selecionar a barra de pesquisa
+            pyautogui.write('V:/Nectar/Unimed_Rj/cnabsantander') # colar o caminho da pasta de registros
+            pyautogui.press(['enter']) # ir até a pasta de registros
+            pyautogui.click(x=250, y=150) # selecionar o registro
+            pyautogui.click(x=500, y=480) # clicar em abrir
+            time.sleep(7) # pausa de 7 seg para carregar a pagina
+            pyautogui.click(x=200, y=390)
+            pyautogui.click(x=160, y=440)
+            pyautogui.click(x=420, y=400)
+            pyautogui.click(x=410, y=440)
+            pyautogui.click(x=400, y=600)
+            pyautogui.click(x=1130, y=390)
+            pyautogui.click(button='left', clicks=15, interval=1) # clicar 15 vezes para ter ctz que deu aceito
+            pyautogui.click(x=875, y=375)
+            pyautogui.click(x=1130, y=390)
+            pyautogui.click(button='left', clicks=15, interval=1) # clicar 15 vezes para ter ctz que deu aceito
+            pyautogui.click(x=875, y=375)
+            pyautogui.click(x=1130, y=390)
+            pyautogui.click(button='left', clicks=15, interval=1) # clicar 15 vezes para ter ctz que deu aceito
+            #pyautogui.hotkey('shift', 'win', 's') # chamar a ferramenta de captura
+            #pyautogui.mouseDown(button='left', x=70, y=150) # selecionar a área de captura inicio
+            #pyautogui.mouseUp(button='left', x=1350, y=590) # selecionar a área de captura fim
+            pyautogui.click(x=1315, y=110) # sair do banco santander
+            pyautogui.click(x=825, y=450) # confirmar saida
+            time.sleep(2)
+            pyautogui.hotkey('ctrl', 'w')
+            #pyautogui.click(x=1102, y=95) # clicar na opção pessoa jurídica
+            #pyautogui.press(['win'])
+            #pyautogui.write('paint')
+            #pyautogui.press(['enter'])
+            #pyautogui.hotkey('ctrl', 'v')
+            #pyautogui.hotkey('ctrl', 's')
+            #pyautogui.write('Unimed')
+            #pyautogui.hotkey('ctrl', 'l')
+            #pyautogui.write('V:/Nectar/Unimed_Rj/Registros Unimed')
+            #pyautogui.press(['enter'])
+            time.sleep(3350) # vai rodar novamente em 57 minutos
+            pyautogui.click(x=1070, y=70)
+        else:
+            time.sleep(3)
+    else:
+        time.sleep(3600)
